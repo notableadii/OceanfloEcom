@@ -61,7 +61,7 @@ export default function Navbar() {
                 </Badge>
               )}
             </div>
-            <Button className="bg-primary text-white hover:bg-primary-dark">
+            <Button className="bg-primary text-white hover:bg-primary-dark hover:text-white">
               Sign In
             </Button>
           </div>

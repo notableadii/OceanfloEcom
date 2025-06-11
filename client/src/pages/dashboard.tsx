@@ -84,7 +84,7 @@ export default function Dashboard() {
                 <div className="flex flex-wrap gap-3">
                   <Button 
                     onClick={() => handleSubscriptionAction("Upgrade")}
-                    className="bg-primary text-white hover:bg-primary-dark"
+                    className="bg-primary text-white hover:bg-primary-dark hover:text-white"
                   >
                     Upgrade Plan
                   </Button>
@@ -109,7 +109,7 @@ export default function Dashboard() {
             <Card>
               <CardHeader className="flex-row items-center justify-between">
                 <CardTitle>Quick Order</CardTitle>
-                <Button className="bg-primary text-white hover:bg-primary-dark">
+                <Button className="bg-primary text-white hover:bg-primary-dark hover:text-white">
                   <Plus className="mr-2" size={16} />
                   New Order
                 </Button>

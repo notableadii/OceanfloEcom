@@ -194,7 +194,7 @@ export default function Admin() {
             <Card className="mb-8">
               <CardHeader className="flex-row items-center justify-between">
                 <CardTitle>Recent Orders</CardTitle>
-                <Button onClick={handleExportCustomers} className="bg-primary text-white hover:bg-primary-dark">
+                <Button onClick={handleExportCustomers} className="bg-primary text-white hover:bg-primary-dark hover:text-white">
                   <Download className="mr-2" size={16} />
                   Export CSV
                 </Button>

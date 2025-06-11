@@ -101,7 +101,7 @@ export default function Subscriptions() {
                     
                     <Button 
                       onClick={() => handleSubscribe(plan)}
-                      className="w-full bg-primary text-white hover:bg-primary-dark"
+                      className="w-full bg-primary text-white hover:bg-primary-dark hover:text-white"
                     >
                       Choose {plan.name.split(' ')[0]}
                     </Button>

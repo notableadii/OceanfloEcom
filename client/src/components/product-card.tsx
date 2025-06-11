@@ -66,7 +66,7 @@ export default function ProductCard({ product, showAddToCart = true }: ProductCa
           {showAddToCart && (
             <Button 
               onClick={handleAddToCart}
-              className="bg-primary text-white hover:bg-primary-dark"
+              className="bg-primary text-white hover:bg-primary-dark hover:text-white"
               disabled={product.stock === 0}
             >
               <ShoppingCart className="mr-2" size={16} />

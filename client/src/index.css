@@ -99,10 +99,31 @@
     border-color: hsl(var(--primary-light));
   }
   .hover\:bg-primary-dark:hover {
-    background-color: hsl(var(--primary-dark));
+    background-color: hsl(var(--primary-dark)) !important;
   }
   .hover\:text-primary:hover {
     color: hsl(var(--primary));
+  }
+  .hover\:text-white:hover {
+    color: white !important;
+  }
+  
+  /* Button hover fix */
+  .btn-primary:hover {
+    background-color: hsl(var(--primary-dark)) !important;
+    color: white !important;
+  }
+  
+  /* Fix all primary buttons */
+  button.bg-primary:hover {
+    background-color: hsl(var(--primary-dark)) !important;
+    color: white !important;
+  }
+  
+  /* Fix outline buttons */
+  button.border-primary:hover {
+    background-color: hsl(var(--primary-dark)) !important;
+    color: white !important;
   }
 }
 

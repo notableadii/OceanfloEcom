@@ -70,7 +70,7 @@ export default function ServiceChecker() {
             <Button 
               onClick={handleCheck}
               disabled={serviceCheckMutation.isPending || !pincode.trim()}
-              className="bg-primary text-white hover:bg-primary-dark"
+              className="bg-primary text-white hover:bg-primary-dark hover:text-white"
             >
               {serviceCheckMutation.isPending ? "Checking..." : "Check Availability"}
             </Button>
