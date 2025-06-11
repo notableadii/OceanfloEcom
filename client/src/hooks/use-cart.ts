@@ -14,7 +14,7 @@ interface CartStore {
 
 export function useCart() {
   const [cart, setCart] = useState<CartStore>(() => {
-    const stored = localStorage.getItem("aquafresh-cart");
+    const stored = localStorage.getItem("oceanflo-cart");
     if (stored) {
       try {
         return JSON.parse(stored);
@@ -26,7 +26,7 @@ export function useCart() {
   });
 
   useEffect(() => {
-    localStorage.setItem("aquafresh-cart", JSON.stringify(cart));
+    localStorage.setItem("oceanflo-cart", JSON.stringify(cart));
   }, [cart]);
 
   const addToCart = (product: Product, quantity: number = 1) => {

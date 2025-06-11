@@ -29,12 +29,12 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/subscriptions">
-                <Button className="bg-white text-primary px-8 py-3 text-lg hover:bg-gray-100">
+                <Button className="bg-primary text-white px-8 py-3 text-lg hover:bg-primary-dark hover:text-white">
                   View Subscription Plans
                 </Button>
               </Link>
               <Link href="/products">
-                <Button variant="outline" className="border-2 border-white text-white px-8 py-3 text-lg hover:bg-white hover:text-primary">
+                <Button className="bg-primary text-white px-8 py-3 text-lg hover:bg-primary-dark hover:text-white border-2 border-primary">
                   Shop Now
                 </Button>
               </Link>

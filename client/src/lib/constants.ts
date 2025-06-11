@@ -1,5 +1,5 @@
 export const SITE_CONFIG = {
-  name: "AquaFresh",
+  name: "OceanFlo",
   description: "Premium water delivery service with subscription plans. Fresh, clean water delivered to your doorstep daily.",
   tagline: "Pure Water, Delivered Fresh",
 };
@@ -46,7 +46,7 @@ export const DELIVERY_SLOTS = [
 
 export const CONTACT_INFO = {
   phone: "+91 98765 43210",
-  email: "support@aquafresh.com",
+  email: "support@oceanflo.com",
   address: "123 Water Street, New Delhi, 110001",
   businessHours: {
     weekdays: "Mon-Sat: 6:00 AM - 10:00 PM",
